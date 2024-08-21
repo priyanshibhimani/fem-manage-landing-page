@@ -1,9 +1,3 @@
-// const navtoggle=document.querySelector("mobile-nav-toggle");
-// const primaryNav=document.querySelector("primary-navigation")
-// document.addEventListener("click",()=>{
-//     // primarynav.hasAttribute("data-visible")?console.log("true"):console.log("not done");
-//     primaryNav.toggleAttribute("data-visible");
-// });
 document.addEventListener("DOMContentLoaded", () => {
     const primaryhHeader=document.querySelector(".primary-header")
     const navtoggle = document.querySelector(".mobile-nav-toggle");
@@ -36,15 +30,3 @@ document.addEventListener("DOMContentLoaded", () => {
       });
    
 });
-// const slider = new A11YSlider(document.querySelector('.slider'), {
-//     adaptiveHeight: flase,
-//     dots: true,
-//     // centerMode:true,
-//     // arrows:false,
-//     // responsive: {
-//     //     480: {
-//     //       dots:false,
-//     //       arrows:true
-//     //     }
-//     //   }
-//   });
