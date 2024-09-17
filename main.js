@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const primarynav = document.querySelector(".primary-navigation");
 
     if (primarynav) { // Check if primarynav is not null
-        document.addEventListener("click", () => {
+        navtoggle.addEventListener("click", () => {
             primarynav.hasAttribute("data-visible")
                 ? navtoggle.setAttribute("aria-expanded",false)
                 :navtoggle.setAttribute("aria-expanded",true)
